@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(211, 208, 208)
+}
+
+.logomarca {
+   text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-style:italic ; color: rgb(0, 0, 0); font-size: 6rem;
+}
+
+header {
+    background-color: black;
+    min-height: 4rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+h1 {
+    height: 5rem;
+}
+
+.empresa {
+    font-size: 2rem;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(3, 3, 3);
+    padding: 6px 8px;
+    color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.logomarca1{
+    margin-bottom: 20rem;
+}
+
+.slogan{
+    text-align: center;
+    text-decoration: double underline;
+    text-shadow: 3px 3px 3px rgb(153, 153, 153);
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 11rem;
+    
+}
+
+.introducao{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(81, 84, 87);
+    
+    
+}
+
+footer{
+    margin-top: 20rem;
+}
+
+.footer1{
+    text-decoration: underline;
+    color: rgb(81, 84, 87);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.subfooter{
+    text-align: center;
+    color: rgb(48, 47, 47);
+}
+
+#sobrenos{
+    margin-top: 25rem;
+}
+
+.sobrenosh3{
+    text-decoration: underline;
+    color: rgb(81, 84, 87);
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.sobrenosp{
+    text-align: center;
+    color: rgb(48, 47, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.localizacao{
+    align-items: center;
+    text-align: center;
+}
+
+.localizacoes{
+    font-size: 2rem;
+    color: rgb(65, 64, 64);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.w3-btn{
+    border-color: rgba(255, 255, 255, 0.911);
+}
+
+#link{
+    text-decoration: underline;
+}
+
+span{
+    color: aliceblue;
+    display: inline-table;
+}
+
+span:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+}
+
+.container{
+    color: aliceblue;
+    font-size: xx-large;
+    text-shadow: 3px 3px 3px rgb(63, 62, 62);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 6rem;
+}
+
+img{
+    border-radius: 30px;
+    border-image: round;
+    
+}
+
+video{
+    border-radius: 30px;
+    
+
+}
+
+.tabelaprecos{
+    width: 70%;
+    height: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabelaprecos th{
+    background-color:  rgba(0, 0, 0, 0.986);
+    color: aliceblue;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+}
+.tabelaprecos tr{
+    background-color:  rgb(197, 194, 194);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(130, 151, 151);
+
+}
+
+.tabelaprecos td{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tabelaprecos h4{
+    color: rgb(121, 138, 141);
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.containertab{
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-content: center;
+}
+
+.containertab table{
+    width: 40%;
+    border-collapse: collapse;
+    margin: 8px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containertab th{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    text-shadow: 2px 2px 2px rgb(189, 187, 187);
+    text-decoration: underline;
+    border: 2px solid rgb(104, 103, 103);
+}
+
+.containertab tr{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid rgb(109, 108, 108)
+}
+
+.containertab td{
+    border: 2px solid rgb(102, 102, 102);
+}
+
+.header-cad{
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-cad h1{
+    font-size: 3rem;
+}
+
+.cadastramento main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+}
+
+.footer-cad{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 34rem;
+    padding: 5;
+    min-height: 4rem;
+}
+
+
+.form-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 12px 16px 32px rgba(10, 4, 31, 0.219);
+    width: 800%;
+    max-width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+}
+
+.form-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #5e5c5c;
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #414040;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding e borda não aumentem a largura */
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(8, 29, 51, 0.329);
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button-group button {
+    padding: 0.8rem 1.3rem;
+    border: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: background-color 0.4s;
+}
+
+.button-group button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+}
+
+.button-group button[type="submit"]:hover {
+    background-color: #b4b2b2;
+}
+
+.button-group button[type="reset"] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-group button[type="reset"]:hover {
+    background-color: #aaacad;
+}
+
+
+
+
+
+
+
